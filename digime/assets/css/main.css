@@ -1,0 +1,99 @@
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+#nav-bar { margin-bottom:5px;}
+
+#tab1-page-content {background-color:#f8f8f8; padding:20px;}
+#right-pane { float:right; width:50%;}
+#bottom-pane {clear:both; margin-top:5px;}
+#api-data{margin-left:20px;}
+#api-output-container { height:400px; overflow:scroll; background-color:#555555;}
+#api-output { padding: 5px; background-color:#555555; color:white; }
+#txt-site-root{width:70%;}
+.code-box {background-color:#cccccc; padding:5px; font-family:"Courier New", Courier, monospace;}
+code {font-family:"Courier New", Courier, monospace;}
+
+.params-table { border:1px solid black; }
+
+.params-table td{ border:1px solid black; }
+
+.subsection {margin-left:20px;}
+
+.small-text {font-size:10px;}
+
+#log-box { background-color:yellow; padding:5px; font-family:"Courier New", Courier, monospace;}
+	
+	.panel  {background-color:#f8f8f8; padding:20px;
+		-moz-border-radius: 20px;
+		-webkit-border-radius: 20px;
+		-khtml-border-radius: 20px;
+		border-radius: 20px;
+	}
+	.result-label {
+		background-color:#555555; padding:5px; margin-top:5px; color:white;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		-khtml-border-radius: 5px;
+	}
+	#log {background-color:yellow; padding:5px;}
+	.status-ok{ color:green; font-family:"Courier New", Courier, monospace;}
+	.status-fail{ color:red; font-family:"Courier New", Courier, monospace;}
+	
+	.history-table-holder {
+		background-color:black;
+		color:white;
+		height:200px;
+		overflow:scroll;
+	}
+	.history-table-holder table {
+		border:0;
+	}
+	.history-table-head {
+		color:red;
+	}
+	
+	.datatable-holder {
+		background-color:#eeeeee;
+		padding:10px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		-khtml-border-radius: 5px;
+		border-radius: 5px;
+	}
+
+	.datatable-holder table{
+		width:100%;
+	}
+	
+	#datatable-announcement-history { width:100%; }
+	
+	#popup-box-holder {
+		position:fixed;
+		left:50%;
+		top:50%;
+	}
+	
+	#popup-box {
+		background-color:white;
+		position:fixed;
+		width:800px;
+		height:600px;
+		margin-left:-400px;
+		margin-top: -300px;
+		padding:20px;
+	}
+	
+	#black-overlay{
+		background-color:rgba(0,0,0,0.5);
+		position:fixed;
+		left:0;
+		top:0;
+		width:100%;
+		height:100%;
+	}
